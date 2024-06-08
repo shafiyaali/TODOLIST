@@ -1,0 +1,42 @@
+.App {
+  margin: 10% 30%;
+  text-align: center;
+  padding: 10px;
+  background-color: blueviolet;
+  color : aliceblue;
+}
+
+.grid-container{
+  display: grid;
+  gap:5px
+}
+
+.grid-item {
+  text-align: center;
+  padding: 10px;
+  justify-content: space-between;
+  font-size: 20px;
+  grid-row: 1;
+  text-align: center;
+}
+
+.input-grid{
+  grid-column: 1 / span 3; 
+
+}
+
+.button-grid {
+  grid-column: 4;
+}
+
+.grid-checkbox {
+  grid-column: 1;
+} 
+
+.grid-task{
+  grid-column: 2 / span 3;
+}
+
+.grid-delete{
+  grid-column: 5;
+}
